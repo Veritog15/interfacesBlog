@@ -37,27 +37,25 @@ body {
 
 .images {
     display: flex;
-    flex-wrap: wrap;
+    justify-content: space-between;
     gap: 10px;
 }
 
 .images img {
-    width: calc(50% - 10px);
+    width: calc(33.33% - 10px);
     border-radius: 5px;
 }
 
-.description {
+.image-text {
+    text-align: center;
+}
+
+.image-text p {
+    margin: 10px 0 0;
+}
+
+.long-image {
     margin-top: 20px;
-}
-
-.card-footer {
-    display: flex;
-    align-items: center;
-}
-
-.card-footer img {
-    width: 150px;
-    height: auto;
+    width: 100%;
     border-radius: 10px;
-    margin-left: 20px;
 }
