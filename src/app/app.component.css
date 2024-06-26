@@ -19,7 +19,7 @@ body {
     max-width: 600px;
 }
 
-.card h1, .card p {
+.card h1, .card p, .card h2 {
     margin: 0 0 10px;
 }
 
@@ -48,4 +48,16 @@ body {
 
 .description {
     margin-top: 20px;
+}
+
+.card-footer {
+    display: flex;
+    align-items: center;
+}
+
+.card-footer img {
+    width: 150px;
+    height: auto;
+    border-radius: 10px;
+    margin-left: 20px;
 }
